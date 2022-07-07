@@ -16,8 +16,8 @@ class App extends React.Component
         return (
             <div>
               <NavBar/>
+              <NoScreen/>
                 <h1>Hello React!</h1>
-                <NoScreen/>
                 <FooterBar/>
             </div>
         );
